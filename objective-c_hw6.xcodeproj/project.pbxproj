@@ -14,6 +14,8 @@
 		7EE685272AF4C3F2001D5BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EE685262AF4C3F2001D5BD1 /* Assets.xcassets */; };
 		7EE6852A2AF4C3F2001D5BD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE685282AF4C3F2001D5BD1 /* LaunchScreen.storyboard */; };
 		7EE6852D2AF4C3F2001D5BD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE6852C2AF4C3F2001D5BD1 /* main.m */; };
+		7EE685352AF4D3A1001D5BD1 /* ColorTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE685342AF4D3A1001D5BD1 /* ColorTile.m */; };
+		7EE685382AF4D420001D5BD1 /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE685372AF4D420001D5BD1 /* Robot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		7EE685292AF4C3F2001D5BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EE6852B2AF4C3F2001D5BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EE6852C2AF4C3F2001D5BD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EE685332AF4D3A1001D5BD1 /* ColorTile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorTile.h; sourceTree = "<group>"; };
+		7EE685342AF4D3A1001D5BD1 /* ColorTile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorTile.m; sourceTree = "<group>"; };
+		7EE685362AF4D420001D5BD1 /* Robot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Robot.h; sourceTree = "<group>"; };
+		7EE685372AF4D420001D5BD1 /* Robot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Robot.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 			children = (
 				7EE6851A2AF4C3F1001D5BD1 /* AppDelegate.h */,
 				7EE6851B2AF4C3F1001D5BD1 /* AppDelegate.m */,
+				7EE685332AF4D3A1001D5BD1 /* ColorTile.h */,
+				7EE685342AF4D3A1001D5BD1 /* ColorTile.m */,
+				7EE685362AF4D420001D5BD1 /* Robot.h */,
+				7EE685372AF4D420001D5BD1 /* Robot.m */,
 				7EE6851D2AF4C3F1001D5BD1 /* SceneDelegate.h */,
 				7EE6851E2AF4C3F1001D5BD1 /* SceneDelegate.m */,
 				7EE685202AF4C3F1001D5BD1 /* ViewController.h */,
@@ -146,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EE685382AF4D420001D5BD1 /* Robot.m in Sources */,
+				7EE685352AF4D3A1001D5BD1 /* ColorTile.m in Sources */,
 				7EE685222AF4C3F1001D5BD1 /* ViewController.m in Sources */,
 				7EE6851C2AF4C3F1001D5BD1 /* AppDelegate.m in Sources */,
 				7EE6852D2AF4C3F2001D5BD1 /* main.m in Sources */,

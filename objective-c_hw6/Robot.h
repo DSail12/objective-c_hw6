@@ -1,4 +1,4 @@
-//
+
 //  Robot.h
 //  objective-c_hw6
 //
@@ -9,7 +9,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Robot : NSObject
+@interface Robot : NSObject<NSCoding>
+
+@property (nonatomic, assign) NSInteger x;
+@property (nonatomic, assign) NSInteger y;
+@property (nonatomic, strong) NSString *name;
 
 @end
 

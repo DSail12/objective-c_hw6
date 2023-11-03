@@ -1,4 +1,4 @@
-//
+
 //  SceneDelegate.m
 //  objective-c_hw6
 //
